@@ -41,7 +41,7 @@ multi-agentic-ai/
 │
 ├── projects/
 │   ├── Multi-Agentic-Ai - 1\multi-agentic-ai-system-using-LangGraph.ipynb
-│   ├── Multi-Agentic-Ai - 2\Recruiting-Process-Automation-Agentic-Ai.ipynb
+│   ├── Multi-Agentic-Ai - 2\Blog-Generation-Automation-Agentic-Ai.ipynb
 │   └── ...
 │
 ├── requirements.txt

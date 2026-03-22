@@ -1,3 +1,7 @@
-langgraph-supervisor 
+langchain
+langchain-core
+langchain-community
 langchain-openai
-duckduckgo-search
+langgraph
+
+openai
