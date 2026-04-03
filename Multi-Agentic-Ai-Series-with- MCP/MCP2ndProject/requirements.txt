@@ -1,0 +1,11 @@
+mcp
+langchain-mcp-adapters 
+langgraph
+langchain-groq
+langchain-openai
+python-dotenv
+
+
+
+# pip install --upgrade groq langchain_groq
+# pip install httpx==0.27.0

@@ -1,0 +1,17 @@
+- uv init mcpdemoproject   <-- to create project 
+- uv venv   <- create virtual enviroment 
+- .venv\scripts\activate  <-- to activate enviroment but name of the project u will see 
+- uv add langchain-groq
+- uv add langchain-openai 
+- uv add mcp-use 
+- uv add -r requirements.txt   <-- to install in one attempt 
+- cursor ide/claude using as host 
+- cursor ide will create client that will connect with multiple MCP servers. 
+- Mcp server configuration setup so that mcp client can read the configuration to deal with mcp-server. 
+- copy playwright mcp server configuration from github and paste into a new "browser_mcp.json"
+- to run npx commands install node.js "https://nodejs.org/en/download" and install it  
+- airbnb mcpserver : "https://github.com/openbnb-org/mcp-server-airbnb"
+- duckduckgo npx mcpserver "https://github.com/zhsama/duckduckgo-mcp-server"
+- setup enviroment variable file with api`s
+- Goto "file/preference/cursor settings/mcp & tool"  and configure your mcp.json.
+- Test your MCP Server with cursor ide agent host.
