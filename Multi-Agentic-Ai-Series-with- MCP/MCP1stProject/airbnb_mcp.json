@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+      "airbnb": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@openbnb/mcp-server-airbnb@latest"
+        ]
+      }}}

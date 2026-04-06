@@ -1,0 +1,6 @@
+[   11152ms] [ERROR] Permissions policy violation: unload is not allowed in this document. @ https://c.go-mpulse.net/boomerang/W5KYL-VGT59-BFM62-773LD-CAHF6:9
+[   12413ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.adidas.co.in/api/bridge/sdk/retrieveBag:0
+[   12414ms] [ERROR] 2026-04-06T14:41:44.064Z - ERROR: [undefined]%o {msg: @ecom/bag getCustomer basket call failed, error: ErrorWithStatusCode: Failed to fetch mini bag
+    at jG (https://microfrontends.glass.adidas.com/he…} @ https://www.datadoghq-browser-agent.com/eu1/v6/datadog-rum.js:0
+[   17232ms] [LOG] Content is cached for offline use. @ https://www.adidas.co.in/static/glass/landing-app/adidas-landing-app/1e598282daf9d8f4c1409db2969d43e22870fc25/_next/static/chunks/pages/_app-42f80cc040b623d4.js:5
+[   20588ms] [WARNING] The resource https://www.adidas.co.in/glass/pkgs/reset.css was preloaded using link preload in Early Hints but not used within a few seconds from the window's load event. @ https://www.adidas.co.in/:0

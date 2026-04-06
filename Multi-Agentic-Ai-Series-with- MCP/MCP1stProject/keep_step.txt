@@ -15,3 +15,78 @@
 - setup enviroment variable file with api`s
 - Goto "file/preference/cursor settings/mcp & tool"  and configure your mcp.json.
 - Test your MCP Server with cursor ide agent host.
+
+
+#myworking 
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }}}
+
+
+
+    
+
+
+chatgpt
+
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb@latest"
+      ]
+    },
+    "duckduckgo-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "duckduckgo-mcp-server@latest"
+      ]
+    }
+  }
+}
+
+
+
+
+
+# myold 
+
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@openbnb/mcp-server-airbnb"
+      ]
+    },
+    "duckduckgo-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "duckduckgo-mcp-server"
+      ]
+    }
+  }
+}

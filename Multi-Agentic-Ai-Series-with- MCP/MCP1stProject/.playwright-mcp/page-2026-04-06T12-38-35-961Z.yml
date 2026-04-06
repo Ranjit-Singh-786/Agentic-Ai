@@ -1,0 +1,491 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: mcp server name list json mcp server name list json
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dmcp%2Bserver%2Bname%2Blist%2Bjson%26sei%3DR6nTaaS1H-eDhuMPkt_CqQM&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCCFiZoMv28ux3eOJ39Q_ixnRJO66C0xBAUoovRT1WiWc2wxNjs2dVEyHrCoGo856EpETgVR969UYyuERa8kxh5cbF1pplYbyQG2Wrvvm6Xcn4EUy6OtZW0DbuVqZV2omfZMmB8jz2e6x3wpB3R-ziGWrtgDg&aep=1&ntc=1&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ2J8OegQIERAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "Images" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=c987a1eb095d5998&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCCFiZoMv28ux3eOJ39Q_ixnRJO66C0xBAUoovRT1WiWc2wxNjs2dVEyHrCoGo856EpETgVR969UYyuERa8kxh5cbF1pplYbyQG2Wrvvm6Xcn4EUy6OtZW0DbuVqZV2omfZMmB8jz2e6x3wpB3R-ziGWrtgDg&q=mcp+server+name+list+json&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQtKgLegQIFxAB
+              - generic [ref=e86]: Images
+          - listitem [ref=e87]:
+            - link "Forums" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=c987a1eb095d5998&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCCFiZoMv28ux3eOJ39Q_ixnRJO66C0xBAUoovRT1WiWc2wxNjs2dVEyHrCoGo856EpETgVR969UYyuERa8kxh5cbF1pplYbyQG2Wrvvm6Xcn4EUy6OtZW0DbuVqZV2omfZMmB8jz2e6x3wpB3R-ziGWrtgDg&q=mcp+server+name+list+json&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQs6gLegQIFhAB
+              - generic [ref=e90]: Forums
+          - listitem [ref=e91]:
+            - link "Videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=c987a1eb095d5998&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCCFiZoMv28ux3eOJ39Q_ixnRJO66C0xBAUoovRT1WiWc2wxNjs2dVEyHrCoGo856EpETgVR969UYyuERa8kxh5cbF1pplYbyQG2Wrvvm6Xcn4EUy6OtZW0DbuVqZV2omfZMmB8jz2e6x3wpB3R-ziGWrtgDg&q=mcp+server+name+list+json&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQtKgLegQIFRAB
+              - generic [ref=e94]: Videos
+          - listitem [ref=e95]:
+            - link "Shopping" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=c987a1eb095d5998&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCCFiZoMv28ux3eOJ39Q_ixnRJO66C0xBAUoovRT1WiWc2wxNjs2dVEyHrCoGo856EpETgVR969UYyuERa8kxh5cbF1pplYbyQG2Wrvvm6Xcn4EUy6OtZW0DbuVqZV2omfZMmB8jz2e6x3wpB3R-ziGWrtgDg&q=mcp+server+name+list+json&ved=1t:220175&ictx=111
+              - generic [ref=e98]: Shopping
+          - listitem [ref=e99]:
+            - link "Short videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=c987a1eb095d5998&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3tR7kVu8a3MULVA9bsoO0mCCFiZoMv28ux3eOJ39Q_ixnRJO66C0xBAUoovRT1WiWc2wxNjs2dVEyHrCoGo856EpETgVR969UYyuERa8kxh5cbF1pplYbyQG2Wrvvm6Xcn4EUy6OtZW0DbuVqZV2omfZMmB8jz2e6x3wpB3R-ziGWrtgDg&q=mcp+server+name+list+json&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQs6gLegQIFBAB
+              - generic [ref=e102]: Short videos
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - generic [ref=e124]:
+      - generic [ref=e143]:
+        - heading "Thinking" [level=2] [ref=e147]:
+          - generic [ref=e148]: Thinking
+        - progressbar [ref=e149]
+      - main [ref=e151]:
+        - generic [ref=e155]:
+          - generic [ref=e158]:
+            - heading "Web results" [level=2] [ref=e159]
+            - generic [ref=e160]:
+              - generic [ref=e163]:
+                - 'link "modelcontextprotocol/servers: Model Context Protocol ... GitHub https://github.com › modelcontextprotocol › servers" [ref=e165] [cursor=pointer]':
+                  - /url: https://github.com/modelcontextprotocol/servers
+                  - 'heading "modelcontextprotocol/servers: Model Context Protocol ..." [level=3] [ref=e166]'
+                  - generic [ref=e171]:
+                    - generic [ref=e173]: GitHub
+                    - generic [ref=e175]: https://github.com › modelcontextprotocol › servers
+                - button "About this result" [ref=e176] [cursor=pointer]:
+                  - img [ref=e179]
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - text: If you are looking for a
+                  - emphasis [ref=e184]: list
+                  - text: of
+                  - emphasis [ref=e185]: MCP servers
+                  - text: ", you can browse published"
+                  - emphasis [ref=e186]: servers
+                  - text: on the
+                  - emphasis [ref=e187]: MCP
+                  - text: Registry. The repository served by this README is dedicated to housing ...
+                - link "Read more" [ref=e188] [cursor=pointer]:
+                  - /url: https://github.com/modelcontextprotocol/servers#:~:text=If%20you%20are%20looking%20for,by%20the%20MCP%20steering%20group.
+          - generic [ref=e192]:
+            - generic [ref=e195]:
+              - link "Example Servers Model Context Protocol https://modelcontextprotocol.io › examples" [ref=e197] [cursor=pointer]:
+                - /url: https://modelcontextprotocol.io/examples
+                - heading "Example Servers" [level=3] [ref=e198]
+                - generic [ref=e203]:
+                  - generic [ref=e205]: Model Context Protocol
+                  - generic [ref=e207]: https://modelcontextprotocol.io › examples
+              - button "About this result" [ref=e208] [cursor=pointer]:
+                - img [ref=e211]
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - text: This page showcases various Model Context Protocol (
+                - emphasis [ref=e216]: MCP
+                - text: )
+                - emphasis [ref=e217]: servers
+                - text: that demonstrate the protocol's capabilities and versatility.
+              - link "Read more" [ref=e218] [cursor=pointer]:
+                - /url: https://modelcontextprotocol.io/examples#:~:text=This%20page%20showcases%20various%20Model,the%20protocol's%20capabilities%20and%20versatility.
+          - generic [ref=e222]:
+            - generic [ref=e225]:
+              - link "MCP servers OpenCode https://opencode.ai › docs › mcp-servers" [ref=e227] [cursor=pointer]:
+                - /url: https://opencode.ai/docs/mcp-servers/
+                - heading "MCP servers" [level=3] [ref=e228]
+                - generic [ref=e233]:
+                  - generic [ref=e235]: OpenCode
+                  - generic [ref=e237]: https://opencode.ai › docs › mcp-servers
+              - button "About this result" [ref=e238] [cursor=pointer]:
+                - img [ref=e241]
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - text: You can define
+                - emphasis [ref=e246]: MCP servers
+                - text: in your OpenCode Config under
+                - emphasis [ref=e247]: mcp
+                - text: . Add each
+                - emphasis [ref=e248]: MCP
+                - text: with a unique
+                - emphasis [ref=e249]: name
+                - text: . You can refer to that
+                - emphasis [ref=e250]: MCP
+                - text: by
+                - emphasis [ref=e251]: name
+                - text: when prompting the LLM.
+              - link "Read more" [ref=e252] [cursor=pointer]:
+                - /url: https://opencode.ai/docs/mcp-servers/#:~:text=You%20can%20define%20MCP%20servers,name%20when%20prompting%20the%20LLM.
+          - generic [ref=e256]:
+            - generic [ref=e259]:
+              - link "MCP servers with the Gemini CLI Gemini CLI https://geminicli.com › docs › tools › mcp-server" [ref=e261] [cursor=pointer]:
+                - /url: https://geminicli.com/docs/tools/mcp-server/
+                - heading "MCP servers with the Gemini CLI" [level=3] [ref=e262]
+                - generic [ref=e267]:
+                  - generic [ref=e269]: Gemini CLI
+                  - generic [ref=e271]: https://geminicli.com › docs › tools › mcp-server
+              - button "About this result" [ref=e272] [cursor=pointer]:
+                - img [ref=e275]
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - text: You can configure
+                - emphasis [ref=e280]: MCP servers
+                - text: in your settings.
+                - emphasis [ref=e281]: json
+                - text: "file in two main ways: through the top-level"
+                - emphasis [ref=e282]: mcpServers
+                - text: object for specific
+                - emphasis [ref=e283]: server
+                - text: definitions, and through ...
+              - link "Read more" [ref=e284] [cursor=pointer]:
+                - /url: https://geminicli.com/docs/tools/mcp-server/#:~:text=You%20can%20configure%20MCP%20servers,control%20server%20discovery%20and%20execution.
+          - generic [ref=e288]:
+            - generic [ref=e290]:
+              - heading "Videos" [level=2] [ref=e291]
+              - button "About this result" [ref=e292] [cursor=pointer]:
+                - img [ref=e295]
+            - generic [ref=e298]:
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - 'link "MCP Server Config Explained: JSON Setup in Cursor and ... YouTube GrabDuck! 1 Apr 2025" [ref=e308] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=xiu1D1bwWp0
+                      - 'heading "MCP Server Config Explained: JSON Setup in Cursor and ... YouTube GrabDuck! 1 Apr 2025" [level=3] [ref=e309]':
+                        - generic [ref=e312]: "MCP Server Config Explained: JSON Setup in Cursor and ..."
+                        - generic [ref=e314]:
+                          - generic [ref=e315]:
+                            - text: YouTube
+                            - generic [ref=e316]: · GrabDuck!
+                          - generic [ref=e317]: 1 Apr 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · GrabDuck!
+                        - button "About this result" [ref=e318] [cursor=pointer]:
+                          - img [ref=e321]
+                  - 'button "MCP Server Config Explained: JSON Setup in Cursor and ... by GrabDuck! on YouTube. Play on Google. 9:21" [ref=e323] [cursor=pointer]':
+                    - generic [ref=e324]:
+                      - img [ref=e330]
+                      - generic [ref=e333]:
+                        - generic [ref=e334]: 9:21
+                        - img [ref=e337]
+                - button "Configure MCP servers manually using JSON in Cursor and Windsurf IDEs. It runs a local server on your machine." [ref=e340] [cursor=pointer]:
+                  - generic [ref=e344]: Configure MCP servers manually using JSON in Cursor and Windsurf IDEs. It runs a local server on your machine.
+              - generic [ref=e350]:
+                - generic [ref=e351]:
+                  - generic [ref=e352]:
+                    - link "Deep Dive MCP Server Protocol JSON-RPC Communication ... YouTube Dallas Software Developers 4 Oct 2025" [ref=e354] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=yscqs6Ks9fk
+                      - heading "Deep Dive MCP Server Protocol JSON-RPC Communication ... YouTube Dallas Software Developers 4 Oct 2025" [level=3] [ref=e355]:
+                        - generic [ref=e358]: Deep Dive MCP Server Protocol JSON-RPC Communication ...
+                        - generic [ref=e360]:
+                          - generic [ref=e361]:
+                            - text: YouTube
+                            - generic [ref=e362]: · Dallas Software Developers
+                          - generic [ref=e363]: 4 Oct 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Dallas Software Developers
+                        - button "About this result" [ref=e364] [cursor=pointer]:
+                          - img [ref=e367]
+                  - button "Deep Dive MCP Server Protocol JSON-RPC Communication ... by Dallas Software Developers on YouTube. Play on Google. 30:34" [ref=e369] [cursor=pointer]:
+                    - generic [ref=e370]:
+                      - img [ref=e376]
+                      - generic [ref=e379]:
+                        - generic [ref=e380]: 30:34
+                        - img [ref=e383]
+                - button "We're going to go deep into or try to go deep into the MCP specification message protocol." [ref=e386] [cursor=pointer]:
+                  - generic [ref=e390]: We're going to go deep into or try to go deep into the MCP specification message protocol.
+              - generic [ref=e396]:
+                - generic [ref=e397]:
+                  - generic [ref=e398]:
+                    - link "Build Your Own MCP Server in Under 15 Minutes | Spring AI ... YouTube Dan Vega 27 Mar 2025" [ref=e400] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=w5YVHG1j3Co
+                      - heading "Build Your Own MCP Server in Under 15 Minutes | Spring AI ... YouTube Dan Vega 27 Mar 2025" [level=3] [ref=e401]:
+                        - generic [ref=e404]: Build Your Own MCP Server in Under 15 Minutes | Spring AI ...
+                        - generic [ref=e406]:
+                          - generic [ref=e407]:
+                            - text: YouTube
+                            - generic [ref=e408]: · Dan Vega
+                          - generic [ref=e409]: 27 Mar 2025
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: YouTube
+                              - generic: · Dan Vega
+                        - button "About this result" [ref=e410] [cursor=pointer]:
+                          - img [ref=e413]
+                  - button "Build Your Own MCP Server in Under 15 Minutes | Spring AI ... by Dan Vega on YouTube. Play on Google. 20:27" [ref=e415] [cursor=pointer]:
+                    - generic [ref=e416]:
+                      - img [ref=e422]
+                      - generic [ref=e425]:
+                        - generic [ref=e426]: 20:27
+                        - img [ref=e429]
+                - button "Learn how to build your own MCP server from scratch using Spring AI's powerful starter packages." [ref=e432] [cursor=pointer]:
+                  - generic [ref=e436]: Learn how to build your own MCP server from scratch using Spring AI's powerful starter packages.
+            - link "View all videos" [ref=e439] [cursor=pointer]:
+              - /url: /search?sca_esv=c987a1eb095d5998&udm=7&q=mcp+server+name+list+json&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8ccDKAJ6BAhUEAQ
+              - separator [ref=e440]
+              - generic [ref=e441]:
+                - generic [ref=e442]: View all
+                - img [ref=e444]
+          - generic [ref=e448]:
+            - heading "Web results" [level=2] [ref=e449]
+            - generic [ref=e450]:
+              - generic [ref=e453]:
+                - link "MCP Servers | Reference Warp Terminal https://docs.warp.dev › reference › cli › mcp-servers" [ref=e455] [cursor=pointer]:
+                  - /url: https://docs.warp.dev/reference/cli/mcp-servers
+                  - heading "MCP Servers | Reference" [level=3] [ref=e456]
+                  - generic [ref=e461]:
+                    - generic [ref=e463]: Warp Terminal
+                    - generic [ref=e465]: https://docs.warp.dev › reference › cli › mcp-servers
+                - button "About this result" [ref=e466] [cursor=pointer]:
+                  - img [ref=e469]
+              - generic [ref=e472]:
+                - generic [ref=e473]: 3 Mar 2026 —
+                - generic [ref=e474]:
+                  - text: Connect agents to external tools like GitHub, Linear, and Sentry by passing
+                  - emphasis [ref=e475]: MCP servers
+                  - text: to the --
+                  - emphasis [ref=e476]: mcp
+                  - text: flag as a UUID, inline
+                  - emphasis [ref=e477]: JSON
+                  - text: ", or file path."
+                - link "Read more" [ref=e478] [cursor=pointer]:
+                  - /url: https://docs.warp.dev/reference/cli/mcp-servers#:~:text=Connect%20agents%20to%20external%20tools,inline%20JSON%2C%20or%20file%20path.
+          - generic [ref=e482]:
+            - generic [ref=e485]:
+              - link "punkpeye/awesome-mcp-servers GitHub https://github.com › punkpeye › awesome-mcp-servers" [ref=e487] [cursor=pointer]:
+                - /url: https://github.com/punkpeye/awesome-mcp-servers
+                - heading "punkpeye/awesome-mcp-servers" [level=3] [ref=e488]
+                - generic [ref=e493]:
+                  - generic [ref=e495]: GitHub
+                  - generic [ref=e497]: https://github.com › punkpeye › awesome-mcp-servers
+              - button "About this result" [ref=e498] [cursor=pointer]:
+                - img [ref=e501]
+            - generic [ref=e504]:
+              - generic [ref=e505]:
+                - text: This
+                - emphasis [ref=e506]: list
+                - text: focuses on production-ready and experimental
+                - emphasis [ref=e507]: MCP servers
+                - text: that extend AI capabilities through file access, database connections, API integrations, and ...
+              - link "Read more" [ref=e508] [cursor=pointer]:
+                - /url: https://github.com/punkpeye/awesome-mcp-servers#:~:text=This%20list%20focuses%20on%20production%2Dready,integrations%2C%20and%20other%20contextual%20services.
+          - generic [ref=e512]:
+            - generic [ref=e515]:
+              - link "This MCP Server Could Have Been a JSON File - by Chris Materialized View | Chris https://materializedview.io › mcp-server-could-have-be..." [ref=e517] [cursor=pointer]:
+                - /url: https://materializedview.io/p/mcp-server-could-have-been-json-file
+                - heading "This MCP Server Could Have Been a JSON File - by Chris" [level=3] [ref=e518]
+                - generic [ref=e523]:
+                  - generic [ref=e525]: Materialized View | Chris
+                  - generic [ref=e527]: https://materializedview.io › mcp-server-could-have-be...
+              - button "About this result" [ref=e528] [cursor=pointer]:
+                - img [ref=e531]
+            - generic [ref=e534]:
+              - generic [ref=e535]: 11 Sept 2025 —
+              - generic [ref=e536]:
+                - text: Model context protocol (
+                - emphasis [ref=e537]: MCP
+                - text: )
+                - emphasis [ref=e538]: servers
+                - text: "are very buzzy right now. The idea is simple: teach large language models (LLMs) how to interact with ..."
+              - link "Read more" [ref=e539] [cursor=pointer]:
+                - /url: https://materializedview.io/p/mcp-server-could-have-been-json-file#:~:text=Model%20context%20protocol%20(MCP)%20servers,interact%20with%20other%20software%20systems.
+          - generic [ref=e543]:
+            - generic [ref=e546]:
+              - link "10 Best MCP Servers for Developers in 2026 Firecrawl https://www.firecrawl.dev › blog › best-mcp-servers-for..." [ref=e548] [cursor=pointer]:
+                - /url: https://www.firecrawl.dev/blog/best-mcp-servers-for-developers
+                - heading "10 Best MCP Servers for Developers in 2026" [level=3] [ref=e549]
+                - generic [ref=e554]:
+                  - generic [ref=e556]: Firecrawl
+                  - generic [ref=e558]: https://www.firecrawl.dev › blog › best-mcp-servers-for...
+              - button "About this result" [ref=e559] [cursor=pointer]:
+                - img [ref=e562]
+            - generic [ref=e565]:
+              - generic [ref=e566]: 24 Feb 2026 —
+              - generic [ref=e567]:
+                - text: The best
+                - emphasis [ref=e568]: MCP servers
+                - text: for developers in 2026 — covering web scraping, design, browser automation, code execution, deployment, and more.
+          - generic [ref=e572]:
+            - generic [ref=e575]:
+              - link "JSON MCP Server mcpservers.org https://mcpservers.org › servers › ciresnave › json-mcp-s..." [ref=e577] [cursor=pointer]:
+                - /url: https://mcpservers.org/servers/ciresnave/json-mcp-server
+                - heading "JSON MCP Server" [level=3] [ref=e578]
+                - generic [ref=e583]:
+                  - generic [ref=e585]: mcpservers.org
+                  - generic [ref=e587]: https://mcpservers.org › servers › ciresnave › json-mcp-s...
+              - button "About this result" [ref=e588] [cursor=pointer]:
+                - img [ref=e591]
+            - generic [ref=e595]:
+              - text: A high-performance
+              - emphasis [ref=e596]: MCP server
+              - text: for comprehensive
+              - emphasis [ref=e597]: JSON
+              - text: file operations, including reading, writing, and advanced querying, optimized for LLM interactions.
+          - generic [ref=e601]:
+            - generic [ref=e602]:
+              - heading "People also ask" [level=2] [ref=e603]
+              - button "About this result" [ref=e604] [cursor=pointer]:
+                - img [ref=e607]
+            - generic [ref=e609]:
+              - button "What is a JSON MCP server?" [ref=e615] [cursor=pointer]:
+                - generic [ref=e617]: What is a JSON MCP server?
+                - img [ref=e620]
+              - button "What all MCP servers are available?" [ref=e629] [cursor=pointer]:
+                - generic [ref=e631]: What all MCP servers are available?
+                - img [ref=e634]
+              - button "Is MCP just a JSON?" [ref=e643] [cursor=pointer]:
+                - generic [ref=e645]: Is MCP just a JSON?
+                - img [ref=e648]
+              - button "How to find MCP JSON in VS Code?" [ref=e657] [cursor=pointer]:
+                - generic [ref=e659]: How to find MCP JSON in VS Code?
+                - img [ref=e662]
+        - generic [ref=e666]:
+          - generic [ref=e671]:
+            - heading "People also search for" [level=2] [ref=e673]
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - link "Mcp server name list json github" [ref=e680] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=Mcp+server+name+list+json+github&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhTEAE
+                  - generic [ref=e681]:
+                    - generic [ref=e686]: Mcp server name list json github
+                    - img [ref=e690]
+                - link "Mcp server name list json example" [ref=e695] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=Mcp+server+name+list+json+example&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhYEAE
+                  - generic [ref=e696]:
+                    - generic [ref=e701]: Mcp server name list json example
+                    - img [ref=e705]
+                - link "MCP server list" [ref=e710] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=MCP+server+list&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhaEAE
+                  - generic [ref=e711]:
+                    - generic [ref=e716]: MCP server list
+                    - img [ref=e720]
+                - link "MCP server list GitHub" [ref=e725] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=MCP+server+list+GitHub&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhcEAE
+                  - generic [ref=e726]:
+                    - generic [ref=e731]: MCP server list GitHub
+                    - img [ref=e735]
+              - generic [ref=e737]:
+                - link "Official MCP servers" [ref=e741] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=Official+MCP+servers&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhdEAE
+                  - generic [ref=e742]:
+                    - generic [ref=e747]: Official MCP servers
+                    - img [ref=e751]
+                - link "GitHub MCP servers" [ref=e756] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=GitHub+MCP+servers&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhbEAE
+                  - generic [ref=e757]:
+                    - generic [ref=e762]: GitHub MCP servers
+                    - img [ref=e766]
+                - link "MCP server-filesystem" [ref=e771] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=MCP+server-filesystem&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhZEAE
+                  - generic [ref=e772]:
+                    - generic [ref=e777]: MCP server-filesystem
+                    - img [ref=e781]
+                - link "MCP server repo" [ref=e786] [cursor=pointer]:
+                  - /url: /search?sca_esv=c987a1eb095d5998&q=MCP+server+repo&sa=X&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ1QJ6BAhXEAE
+                  - generic [ref=e787]:
+                    - generic [ref=e792]: MCP server repo
+                    - img [ref=e796]
+          - navigation [ref=e798]:
+            - heading "Page navigation" [level=1] [ref=e799]
+            - text: "1"
+            - link "Page 2" [ref=e802] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=10&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAE
+              - text: "2"
+            - link "Page 3" [ref=e804] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=20&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAG
+              - text: "3"
+            - link "Page 4" [ref=e806] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=30&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAI
+              - text: "4"
+            - link "Page 5" [ref=e808] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=40&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAK
+              - text: "5"
+            - link "Page 6" [ref=e810] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=50&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAM
+              - text: "6"
+            - link "Page 7" [ref=e812] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=60&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAO
+              - text: "7"
+            - link "Page 8" [ref=e814] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=70&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAQ
+              - text: "8"
+            - link "Page 9" [ref=e816] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=80&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAS
+              - text: "9"
+            - link "Page 10" [ref=e818] [cursor=pointer]:
+              - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=90&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8tMDegQICRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e820]:
+              - link "Next" [ref=e821] [cursor=pointer]:
+                - /url: /search?q=mcp+server+name+list+json&sca_esv=c987a1eb095d5998&ei=SanTabTOC8XS5OUPr-GpmQ8&start=10&sa=N&sstk=Af77f_fvtY0DGN7XUiNW_izpQQl1j4VJdUBp2Yqg123XfxZ4ZRgJ2K_tZMEKldYBjofQsnstch5a17zvP4WJKZCp1dnesgHSo5__kg&ved=2ahUKEwj0luSOn9mTAxVFKbkGHa9wKvMQ8NMDegQICRAW
+                - generic [ref=e823]: Next
+        - navigation
+    - contentinfo [ref=e824]:
+      - heading "Footer links" [level=1] [ref=e825]
+      - generic [ref=e829]:
+        - generic [ref=e831]:
+          - text: India
+          - generic [ref=e833]:
+            - button "302018, Jaipur, Rajasthan - From your IP address" [ref=e835] [cursor=pointer]:
+              - generic [ref=e836]: 302018, Jaipur, Rajasthan
+              - generic [ref=e838]:
+                - text: "-"
+                - generic [ref=e839]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e841] [cursor=pointer]: Update location
+        - generic [ref=e844]:
+          - link "Help" [ref=e845] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=e846] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e847] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e848] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
