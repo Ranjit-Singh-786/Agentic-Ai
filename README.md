@@ -22,6 +22,15 @@ Each agent can:
 
 ---
 
+
+## 📌 Complete LangGraph
+
+This repository contains a well-structured and comprehensive notebook for building multi-agent AI applications using LangGraph.  
+It focuses on providing a wide range of workflows, covering different patterns and use cases to help developers understand and implement agentic systems effectively.
+
+
+Multi-Agentic AI refers to systems where **multiple AI agents interact, communicate, and collaborate** to achieve a goal.
+
 ## 🏗️ Tech Stack
 
 - Python 🐍  
@@ -38,7 +47,7 @@ Each agent can:
 
 ```bash
 multi-agentic-ai/
-│
+├── LangGraph/check cover all workflow
 ├── projects/
 │   ├── Multi-Agentic-Ai - 1\multi-agentic-ai-system-using-LangGraph.ipynb
 │   ├── Multi-Agentic-Ai - 2\Blog-Generation-Automation-Agentic-Ai.ipynb
