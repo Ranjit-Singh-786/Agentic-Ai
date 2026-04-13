@@ -95,4 +95,4 @@ vectorstore = Chroma.from_documents(
     collection_name=COLLECTION_NAME,
 )
 
-print(f"\n✅ Ingestion Complete! Total chunks: {len(chunks)}")
+print(f" Ingestion Complete! Total chunks: {len(chunks)}")
