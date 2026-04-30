@@ -1,0 +1,14 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "notebook.inlineSuggest.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "python": false,
+    "jupyter": false,
+    "notebook": false,
+    "markdown": false,
+    "plaintext": false
+  }
+}
