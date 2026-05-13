@@ -1,68 +1,99 @@
-import streamlit as st 
+import streamlit as st
 from workflow import Workflow
-import warnings
-import uuid 
-warnings.filterwarnings("ignore")
+from langchain_core.messages import HumanMessage, AIMessage
+import uuid
+
+# **************************************** utility functions *************************
 
 def generate_thread_id():
     thread_id = uuid.uuid4()
     return thread_id
 
-def add_thread_id(thread_id):
+def reset_chat():
+    thread_id = generate_thread_id()
+    st.session_state['thread_id'] = thread_id
+    add_thread(st.session_state['thread_id'])
+    st.session_state['message_history'] = []
+
+def add_thread(thread_id):
     if thread_id not in st.session_state['chat_threads']:
         st.session_state['chat_threads'].append(thread_id)
 
-
-# -------------------- session_state setup  ----------------------
-
-if "message_history" not in st.session_state:
-    st.session_state["message_history"] = []
-
-if "chat_threads" not in st.session_state:
-    st.session_state['chat_threads'] = [] 
-
-if "thread_id" not in st.session_state:  # current conversation ID
-    st.session_state["thread_id"] = generate_thread_id()
-    add_thread_id(st.session_state['thread_id'])
-
-# if "chat_thread_history" not in st.session_state:
-#     st.session_state['chat_thread_history'] = st.session_state['message_history']
+def load_conversation(thread_id):
+    state = Workflow.get_state(config={'configurable': {'thread_id': thread_id}})
+    # Check if messages key exists in state values, return empty list if not
+    return state.values.get('messages', [])
 
 
-# ----------------------------------------------------------------
+# **************************************** Session Setup ******************************
+if 'message_history' not in st.session_state:
+    st.session_state['message_history'] = []
+
+if 'thread_id' not in st.session_state:
+    st.session_state['thread_id'] = generate_thread_id()
+
+if 'chat_threads' not in st.session_state:
+    st.session_state['chat_threads'] = []
+
+add_thread(st.session_state['thread_id'])
 
 
-st.header("ChatBot With LangGraph workflow")
+# **************************************** Sidebar UI *********************************
 
-for message in st.session_state["message_history"]:
-    with st.chat_message(message["role"]) as box:
+st.sidebar.title('LangGraph Workflow')
+
+if st.sidebar.button('New Chat'):
+    reset_chat()
+
+st.sidebar.header('My Conversations')
+
+for thread_id in st.session_state['chat_threads'][::-1]:
+    if st.sidebar.button(str(thread_id)):
+        st.session_state['thread_id'] = thread_id
+        messages = load_conversation(thread_id)
+
+        temp_messages = []
+
+        for msg in messages:
+            if isinstance(msg, HumanMessage):
+                role='user'
+            else:
+                role='assistant'
+            temp_messages.append({'role': role, 'content': msg.content})
+
+        st.session_state['message_history'] = temp_messages
+
+
+# **************************************** Main UI ************************************
+
+# loading the conversation history
+for message in st.session_state['message_history']:
+    with st.chat_message(message['role']):
         st.text(message['content'])
 
-
-
-# ------------------------------- SIDE BAR ------------------------------------
-
-st.sidebar.title("Your Conversation")
-if st.sidebar.button("New Chat"):
-    add_thread_id(st.session_state['thread_id'])
-    st.session_state['thread_id']=generate_thread_id()
-
-for thread in st.session_state['chat_threads'][::-1]:
-    st.sidebar.text(thread)
-# -----------------------------------------------------------------------------
-
-
-
-
-user_input = st.chat_input("Type here ...")
+user_input = st.chat_input('Type here')
 
 if user_input:
-    st.session_state['message_history'].append({"role":"user","content":user_input})
-    with st.chat_message("user") as box:
-        st.text(user_input)
-    config  = {"configurable":{"thread_id":st.session_state['thread_id']}}
 
-    result = Workflow.invoke({"messages":user_input},config=config)
-    st.session_state['message_history'].append({"role":"assistant","content":result['messages'][-1].content})
-    with st.chat_message("assistant") as box:
-        st.text(result['messages'][-1].content)
+    # first add the message to message_history
+    st.session_state['message_history'].append({'role': 'user', 'content': user_input})
+    with st.chat_message('user'):
+        st.text(user_input)
+
+    CONFIG = {'configurable': {'thread_id': st.session_state['thread_id']}}
+
+     # first add the message to message_history
+    with st.chat_message("assistant"):
+        def ai_only_stream():
+            for message_chunk, metadata in Workflow.stream(
+                {"messages": [HumanMessage(content=user_input)]},
+                config=CONFIG,
+                stream_mode="messages"
+            ):
+                if isinstance(message_chunk, AIMessage):
+                    # yield only assistant tokens
+                    yield message_chunk.content
+
+        ai_message = st.write_stream(ai_only_stream())
+
+    st.session_state['message_history'].append({'role': 'assistant', 'content': ai_message})
